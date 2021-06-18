@@ -53,7 +53,7 @@ describe('Validating Chat box with validation of Email and Chat Validation', fun
 
     })
 
-    it.only('As a user, I want to read and navigate through the chat'+ 
+    it('As a user, I want to read and navigate through the chat'+ 
     'So that I can get the latest news about the game of thrones', function () {
         
         cy.visit(BaseURL + '/channels/test-channel-test/11819');

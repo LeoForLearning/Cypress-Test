@@ -1,0 +1,17 @@
+{
+
+        "$schema":"https://on.cypress.io/cypress.schema.json",
+                    
+         "taskTimeout": 180000,
+         "defaultCommandTimeout":90000,
+         "pageLoadTimeout":100000, 
+         "responseTimeout":100000,               
+         "video": false,
+         "parseSpecialCharSequences":false,
+         "pluginsFile": "cypress/plugins/index.js",
+         "trashAssetsBeforeRuns":true 
+
+}        
+
+
+

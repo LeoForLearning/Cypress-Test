@@ -1,0 +1,32 @@
+{
+  "name": "cypresslearn",
+  "version": "1.0.0",
+  "description": "cypress Interview ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/cypress run --spec cypress/integration/YouGuvInterview.js",
+    "test-chrome": "./node_modules/.bin/cypress run --browser chrome --spec cypress/integration/YouGuvInterview.js",
+    "test-firefox": "./node_modules/.bin/cypress run --browser firefox --spec cypress/integration/YouGuvInterview.js",
+    "test-edge": "./node_modules/.bin/cypress run --browser edge --spec cypress/integration/YouGuvInterview.js",
+    "test-runner":"./node_modules/.bin/cypress open"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "leo",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.4.0",
+    "cypress": "^7.3.0",
+    "cypress-file-upload": "^4.1.1",
+    "cypress-iframe": "^1.0.1",
+    "cypress-keycloak-commands": "^1.2.0",
+    "cypress-recurse": "^1.8.1",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.1"
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.0"
+  }
+}

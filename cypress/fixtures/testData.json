@@ -1,0 +1,10 @@
+{
+  "name": "Using fixtures to represent data",
+  "invalidEmail": ["youvchat@","youvchat@gmail"],
+  "validEmail":"briitoleo42@gmail.com",
+  "text": "Please try with a valid email address.",
+  "answers":" Great News 😍 ",
+  "msgOnBox":"Nice",
+  "sAnswers":" Definitely 👍 ",
+  "blogText":"In a blog post, he explained:"
+}

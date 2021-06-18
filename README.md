@@ -30,8 +30,8 @@ There is also a sample 1 BDD Manual case written below in the Read Me [Just a an
 6. Once npm installation is complete, do one of the following to run the test:
    - Run command `npm start`. This will run the Smoke test script code in the command line, in headless mode, using a generic “browser”.
    - Run command `npm run test-chrome -- --env url='https://www.yougov.chat'` command to run the Smoke   test  script in a Chrome browser.  
-   - Run command `npm run test-firefox-- --env url='https://www.yougov.chat'`  command to run the Smoke test script in a Firefox browser.
-   - Run command `npm run test-edge-- --env url='https://www.yougov.chat'`  command to run the Smoke test script in a Edge browser.
+   - Run command `npm run test-firefox -- --env url='https://www.yougov.chat'`  command to run the Smoke test script in a Firefox browser.
+   - Run command `npm run test-edge -- --env url='https://www.yougov.chat'`  command to run the Smoke test script in a Edge browser.
   
 7. On successful execution, the output should resemble:
 

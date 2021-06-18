@@ -1,14 +1,14 @@
 {
-  "name": "cypresslearn",
+  "name": "cypressAutomation",
   "version": "1.0.0",
   "description": "cypress Interview ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/cypress run --spec cypress/integration/chatpage.js",
-    "test-chrome": "./node_modules/.bin/cypress run --browser chrome --spec cypress/integration/chatpage.js",
-    "test-firefox": "./node_modules/.bin/cypress run --browser firefox --spec cypress/integration/chatpage.js",
-    "test-edge": "./node_modules/.bin/cypress run --browser edge --spec cypress/integration/chatpage.js",
+    "start": "./node_modules/.bin/cypress run --spec cypress/integration/YouGuvInterview.js",
+    "test-chrome": "./node_modules/.bin/cypress run --browser chrome --spec cypress/integration/YouGuvInterview.js",
+    "test-firefox": "./node_modules/.bin/cypress run --browser firefox --spec cypress/integration/YouGuvInterview.js",
+    "test-edge": "./node_modules/.bin/cypress run --browser edge --spec cypress/integration/YouGuvInterview.js",
     "test-runner":"./node_modules/.bin/cypress open"
   },
   "keywords": [

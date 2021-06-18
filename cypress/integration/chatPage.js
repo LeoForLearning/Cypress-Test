@@ -29,7 +29,7 @@ describe('Validating Chat box with validation of Email and Chat Validation', fun
 
     it('As a user, I want to provide my Email address when taking chat for the first time'+
     'so that I can later receive alerts  for new available chats', function () {
-        cy.get(firtNews).first().click({ force: true })
+        cy.get(firtNews).first().should('be.visible').click({ force: true })
         cy.wait(10000)
         cy.enter('#ic-chat-widget-frame').then(getBody => {
             getBody("body").then($body => {

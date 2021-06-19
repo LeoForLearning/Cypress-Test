@@ -1,4 +1,4 @@
-# YouGov Chat Test Automation
+# Cypress Chat Test Automation
 
 Test script which covers the current interview test scenarios using Cypress.
 Note: The Manual test case is present in the attached a excel called Manual case.xlsx in tradition Manual test case format

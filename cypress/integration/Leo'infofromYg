@@ -4,3 +4,8 @@
                  contentWindow.localStorage.clear();
              },
          });
+
+
+cy.intercept('**/user/register_recaptcha', (req) => {
+            req.headers['X-Forwarded-For'] = countryIp.us;
+        });

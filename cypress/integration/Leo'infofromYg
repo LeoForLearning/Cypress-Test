@@ -1,0 +1,6 @@
+ //clearn local subdomain
+ cy.visit('https://cdn.<leo>-dev.chat/index.html', {
+             onBeforeLoad: (contentWindow) => {
+                 contentWindow.localStorage.clear();
+             },
+         });
